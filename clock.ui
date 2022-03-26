@@ -16,7 +16,7 @@
   <property name="styleSheet">
    <string notr="true">background-image:url(./images/background.png);</string>
   </property>
-  <layout class="QGridLayout" name="gridLayout">
+  <layout class="QGridLayout" name="gridLayout" rowstretch="50,10">
    <property name="leftMargin">
     <number>50</number>
    </property>
@@ -40,7 +40,7 @@
      <property name="font">
       <font>
        <family>Microsoft YaHei UI</family>
-       <pointsize>16</pointsize>
+       <pointsize>20</pointsize>
       </font>
      </property>
      <property name="styleSheet">
@@ -51,6 +51,43 @@
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="label_1">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>80</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>500</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>Microsoft YaHei UI</family>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-image:url();background-color:rgb(240,240,220,200);border-radius:20px;</string>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+     <property name="margin">
+      <number>20</number>
      </property>
     </widget>
    </item>
