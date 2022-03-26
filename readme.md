@@ -9,3 +9,9 @@ A simple clock in pyqt which updates and displays puns every 10 seconds. Impleme
 - window resizing, 
 - general design concepts for pyqt.
 
+---
+
+<br>
+
+![Screenshot 1](images/ss1.png)
+![Screenshot 2](images/ss2.png)
